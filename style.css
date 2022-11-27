@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-background{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/home-background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    border-radius: 20px;
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 3% auto;
+    background: #ffff;
+    padding: 5px;
+}
+
+.submit-btn{
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    position: relative;
+    width: 80px;
+    height: 40px;
+}
+
